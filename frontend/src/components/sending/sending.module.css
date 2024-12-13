@@ -1,0 +1,31 @@
+.info {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.details {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: last baseline;
+    width: 80%;
+    margin-bottom: 3rem;
+}
+.cardsContainer {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    max-height: 400px;
+    width: 100%;
+}
+
+.card {
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}

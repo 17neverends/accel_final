@@ -1,0 +1,24 @@
+.customInput {
+    color: #ffffff !important;
+    margin-top: 1rem;
+    max-width: 210px !important; 
+    min-width: 210px !important;
+}
+  
+.customInput input {
+    background-color: transparent !important;
+    padding: 10px;
+    border: none;
+    border-bottom: 2px solid #ccc;
+    outline: none;
+    font-size: 16px !important;
+    transition: all 0.5s ease;
+    border-radius: 10px 10px 0 0;
+}
+  
+.customInput input:focus {
+    box-shadow: 0 1px 5px rgba(179, 0, 255, 0.495);
+    transform: scale(1.05);
+    border-bottom: 2px solid transparent;
+    border-radius: 10px;
+}

@@ -1,0 +1,39 @@
+body {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: 0 auto;
+  height: 100vh;
+  width: 100vw;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: 'Inter', sans-serif;
+  --rs-gray-600: #b6b6b6 !important;
+  
+  --rs-primary-700: #e5e5e5 !important;
+  --rs-primary-800: #222222 !important;
+  --rs-gray-800: #ffffff !important;
+
+  --rs-steps-icon-state-process: #9812b0 !important;
+  --rs-steps-item-status-finish: #50055e !important;
+  --rs-steps-item-tail-color: #50055e !important;
+  --rs-primary-500: #9812b0 !important;
+  --rs-primary-600: #9812b0 !important;
+  --rs-text-primary: #ffffff !important;
+  --rs-text-secondary: #b6b6b6 !important;
+  --rs-text-disabled: #b6b6b6 !important;
+  --rs-text-placeholder: #b6b6b6 !important;
+  --rs-text-inactive: #b6b6b6 !important;
+  --rs-navs-selected: #9563ce !important;
+  --rs-navs-selected-hover: #ffffff !important;
+  --rs-navs-selected-active: #9812b0 !important;
+  --rs-navs-selected-active-hover: #9812b0 !important;
+}
+
+.rs-btn-ghost:focus, .rs-btn-ghost:hover {
+  background-color: white !important;
+}
